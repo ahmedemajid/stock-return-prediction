@@ -29,13 +29,6 @@ Results showed:
 
 The negative test R² means the models performed worse than just predicting the mean. Daily returns are too noisy for these features.
 
-## Tech
-
-- NumPy (manual OLS via normal equation)
-- scikit-learn (Ridge with StandardScaler)
-- yfinance (data)
-- Tested alphas: [0.01, 0.1, 1.0, 10.0, 100.0]
-
 ## Running It
 ```bash
 pip install pandas numpy scikit-learn yfinance matplotlib seaborn
